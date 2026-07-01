@@ -1,8 +1,5 @@
 """
-dft_analyzer.py
-
-A minimal, robust HOMO-LUMO extractor for ORCA DFT output files.
-
+dft_analyzer.py 
 Given an ORCA .out file, this tool extracts:
   - HOMO / LUMO orbital numbers
   - HOMO / LUMO energies (eV)
@@ -209,6 +206,7 @@ class DFTAnalyzer:
         if final_energy_h is not None:
             report.append(f"Final Energy  : {final_energy_h:.6f} Hartree")
             report.append(f"Final Energy  : {final_energy_ev:.4f} eV")
+            report.append("===========DEVELOPED BY P.D ==================\n")
         else:
             report.append("Final Energy  : Not available")
 
