@@ -8,7 +8,7 @@ Given an ORCA .out file, this tool extracts:
   - SCF convergence status
   - Final single-point energy (Hartree and eV)
 
-and writes a clean, human-readable text report.
+and writes a clean, Simplified text report.
 
 Usage:
     python dft_analyzer.py path/to/molecule.out
